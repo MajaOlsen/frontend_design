@@ -5,7 +5,7 @@
     margin-top: 0.25rlh;
   }
 }
-
+/*tester*/
 /*kort med justeret font-størrelse og linjehøjde for paragraf*/
 .card:has(p):not(:has(h3, img)) p {
   font-size: 20px;
