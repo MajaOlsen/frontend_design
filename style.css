@@ -58,7 +58,6 @@ article {
   }
 }
 
-/* Læg mærke til, at vi bør stadig bruge @media, når det handler om viewporten */
 .content-wrapper {
   @media (width > 700px) {
     display: grid;
