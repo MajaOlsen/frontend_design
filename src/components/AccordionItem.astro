@@ -24,9 +24,22 @@ const { id, question, answer, linkBlock } = props;
 </details>
 
 <style>
+
+details[open] svg {
+  transform: rotate(180deg);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  details[open] svg {
+    transition: transform 0.4s ease-in-out;
+    transform: rotate(180deg);
+  }
+}
+
   details {
     color: hsl(190 30% 12%);
     border-bottom: 1px solid #dadada;
+   
 
     summary {
       font-weight: 700;
